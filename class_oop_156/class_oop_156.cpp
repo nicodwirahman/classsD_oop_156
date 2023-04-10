@@ -23,6 +23,13 @@ public:
 		cin >> sks;
 		cout << "\nMasukan kode mk= ";
 		cin >> kode;
-		cout << "\nMasukan Nama mk= ";
-		cin >> nama mk;
+		cout << "\nMasukan namaMk= ";
+		cin >> namaMk;
 	}
+
+	void tampilMK() {
+		cout << "\njumlah sks=" << sks;
+		cout << "\nkode MK= " << kode;
+		cout << "\nNama MK=" << namaMk << endl;
+	}
+};
